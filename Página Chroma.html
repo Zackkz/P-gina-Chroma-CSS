@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> Página Chroma </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+
+            ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+
+            ul.topnav li {float: left;}
+
+            ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            ul.topnav li a:hover:not(.active) {background-color: royalblue;}
+
+            ul.topnav li a.active {background-color: blue;}
+
+            ul.topnav li.right {float: right;}
+
+            @media screen and (max-width: 600px) {
+            ul.topnav li.right, 
+            ul.topnav li {float: none;}
+            }
+
+            body {
+            -webkit-animation: colorchange 30s infinite; 
+            animation: colorchange 30s infinite;
+            margin: 0;
+            }
+            @-webkit-keyframes colorchange {
+                0%  {background: #33FFF3;}
+                25%  {background: #78281F;}
+                50%  {background: #117A65;}
+                75%  {background: #DC7633;}
+                100% {background: #9B59B6;}
+            }
+            @keyframes colorchange {
+                0%  {background: #33FFF3;}
+                25%  {background: #78281F;}
+                50%  {background: #117A65;}
+                75%  {background: #DC7633;}
+                100% {background: #9B59B6;}
+            }   
+
+        </style>
+    </head>
+    <body>
+    </body>
+</html> 
